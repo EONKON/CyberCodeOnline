@@ -5,7 +5,7 @@
               "eng": "Inventory"
          },
          "quest": {
-              "trans": "Quest",
+              "trans": "Sarcină",
               "eng": "Quest"
          },
          "chat": {
@@ -34,11 +34,11 @@
          },
          "cosmetic": {
               "name": {
-                   "trans": "Cosmetică Cyberwear",
+                   "trans": "Cosmetică Cibernetică",
                    "eng": "Cosmetic Cyberwear"
               },
               "tut": {
-                   "trans": "Dacă ți-a plăcut jocul, te rog să donezi:)",
+                   "trans": "Dacă ți-a plăcut jocul, te rog să iei în considerare o donație :)",
                    "eng": "If you liked the game, please consider donation :)"
               }
          },
@@ -48,13 +48,13 @@
                    "eng": "Molecular 3d Printer"
               },
               "tut": {
-                   "trans": "Îți poți folosii Cache-ul ca să printezi echipamente noi aici",
+                   "trans": "Îți poți folosi Cache-ul ca să printezi echipamente noi aici",
                    "eng": "You can use your Cache to print new equipment here"
               }
          },
          "weaponSmith": {
               "name": {
-                   "trans": "Armurier",
+                   "trans": "Armurărie",
                    "eng": "Weaponsmith"
               }
          },
@@ -70,13 +70,13 @@
          },
          "store": {
               "name": {
-                   "trans": "Magazinul Trinoky",
+                   "trans": "Magazin Trinoky",
                    "eng": "Trinoky Mart"
               }
          },
          "bank": {
               "name": {
-                   "trans": "Banca din Arasaka",
+                   "trans": "Banca Arasaka",
                    "eng": "Arasaka Bank"
               }
          }
@@ -106,25 +106,25 @@
          },
          "medical": {
               "name": {
-                   "trans": "cercetare medicală",
+                   "trans": "Cercetare medicală",
                    "eng": "medical science"
               }
          },
          "ammo": {
               "name": {
-                   "trans": "fabricare amuniție",
+                   "trans": "Fabricare muniție",
                    "eng": "ammo crafting"
               }
          },
          "scavenge": {
               "name": {
-                   "trans": "abilitate de scotocire",
+                   "trans": "Abilitate de refolosire",
                    "eng": "scavenge skill"
               }
          },
          "mining": {
               "name": {
-                   "trans": "abilitate de minare",
+                   "trans": "Abilitate de minare",
                    "eng": "mining skill"
               }
          }
@@ -136,7 +136,7 @@
                    "eng": "Shangri-La City center"
               },
               "description": {
-                   "trans": "[Central Hub]\r\n        Unul din cele mai aglomerate orașe de pe continent, aici poți găsii tot felul de oameni din întreaga lume.",
+                   "trans": "[Central Hub]\r\n        Unul dintre cele mai aglomerate orașe de pe continent, aici poți găsi tot felul de oameni din jurul globului.",
                    "eng": "[Central Hub]\r\n        One of the busiest cities in the continent, here you can find all sorts of people from around the globe."
               },
               "toStation": {
@@ -196,7 +196,7 @@
                    "eng": "Shangri-La Market Street"
               },
               "description": {
-                   "trans": "[Player Market]\r\n        Faimoasa piață stradală din Shangri-La. Multe tarabe împânzesc piața.\r\n        Poate că tu o să găsești ceva care îți trebuie sau poate că vrei să-ți deschizi propriul magazin.",
+                   "trans": "[Player Market]\r\n        Faimoasa piață stradală din Shangri-La. Multe tarabe umplu strada.\r\n        Poate că tu o să găsești ceva care îți trebuie sau poate că vrei să-ți deschizi propriul magazin.",
                    "eng": "[Player Market]\r\n        The famous market street in Shangri-La. Loads of market stalls fill the street.\r\n        Maybe you can find something you need or set up shop yourself."
               },
               "toMainHub": {
@@ -212,14 +212,14 @@
                    "eng": "Hyper Train Central Station"
               },
               "description": {
-                   "trans": "[Adventure]\r\n        Folosind tehnologia hyperloop poți călătorii la viteze foarte mari pe întreg continentul cu ușurință.",
+                   "trans": "[Adventure]\r\n        Folosind tehnologia hyperloop poți călătorii la super viteze de-a lungul continentului cu ușurință.",
                    "eng": "[Adventure]\r\n        Using the hyperloop you can travel at super speed across the continent with ease."
               }
          },
          "zone": {
               "backToMainHub": {
                    "name": {
-                        "trans": "Înapoi în ${mainHubName}",
+                        "trans": "Întoarce-te la ${mainHubName}",
                         "eng": "Return to ${mainHubName}",
                         "vars": [
                              "mainHubName"
@@ -231,7 +231,7 @@
                         "vars": [
                              "segmentStationName"
                         ],
-                        "trans": "înapoi la ${segmentStationName}",
+                        "trans": "înapoi către ${segmentStationName}",
                         "eng": "back to ${segmentStationName}"
                    },
                    "description": {
@@ -295,7 +295,7 @@
                    "vars": [
                         "levelName"
                    ], 
-                   "trans": "Un fragment care înglobează memoria și experiența cuiva. Dacă este activat, poți dobândii ${levelName} experiență din aceast device.",
+                   "trans": "Un fragment care înglobează memoria și experiența cuiva. Dacă este activat, poți dobândii ${levelName} experiență din acesta.",
                    "eng": "A shard that contains someone's memory and experience, if used you may gain ${levelName} experience from this"
               }
          },
@@ -312,7 +312,7 @@
                    "vars": [
                         "segmentDisplayName"
                    ],
-                   "trans": "Fragment de Cheie Secretă folosit pentru a forța-brutal o cheie secretă.\r\n                                Folosește Terminalul din Centrul Orașului [Hub] pentru a forța-brutal o ${segmentDisplayName} cheie secretă.\r\n                                Poți obține fiecare din cele 3 fragmente de chei din fiecare dungeon (în cea normală și în cea dificilă),\r\n                                arunci când ai obținut 3 fragmente de cheie, poți utiliza Terminalul pentru a forța-brutal (Crea) o cheie pentru următoarea zonă",
+                   "trans": "Fragment de Cheie Secretă folosit pentru a forța o cheie secretă.\r\n                                Folosește Terminalul din Centrul Orașului [Hub] pentru a forța-brutal o ${segmentDisplayName} cheie secretă.\r\n                                Poți obține fiecare din cele 3 fragmente de chei din fiecare dungeon (în cea normală și în cea dificilă),\r\n                                arunci când ai obținut 3 fragmente de cheie, poți utiliza Terminalul pentru a forța-brutal (Crea) o cheie pentru următoarea zonă",
                    "eng": "Secret key Fragment Use to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
               }
          },
@@ -359,7 +359,7 @@
          },
          "upgradeModule": {
               "name": {
-                   "trans": "upgrade module",
+                   "trans": "Modul de îmbunătățire",
                    "eng": "upgrade module"
               }
          },
@@ -369,13 +369,13 @@
                    "eng": "Pain Away"
               },
               "description": {
-                   "trans": "Te doare capul? Folosește Pain Away™ pentru a-ți ameliora durerea!",
+                   "trans": "Ai o durere de cap ? Folosește Pain Away™ pentru a-ți ameliora durerea!",
                    "eng": "Do you have headache? use Pain Away™ to relief your pain!"
               }
          },
          "healing2": {
               "name": {
-                   "trans": "Nano Robot Degradat Reparator",
+                   "trans": "Nano Robot Reparator Degradat",
                    "eng": "Degraded Nano Repair Bot"
               },
               "description": {
